@@ -1,0 +1,19 @@
+{
+  "expo": {
+    "name": "MERCURIUS 水星生产管理",
+    "slug": "mercurius-mobile",
+    "scheme": "mercurius",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.mercurius.production"
+    },
+    "android": {
+      "package": "com.mercurius.production"
+    },
+    "plugins": [],
+    "extra": {}
+  }
+}

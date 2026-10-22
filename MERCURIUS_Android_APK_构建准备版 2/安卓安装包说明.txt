@@ -1,0 +1,15 @@
+MERCURIUS Android APK 构建准备版
+
+这是一份 Android App 源码项目，不是已经编译好的 APK。
+
+完成 APK 需要：
+1. 有 Expo 账号并在可联网的电脑/云构建环境运行构建。
+2. 配置 .env 中的 Supabase 项目地址与公开 anon/publishable key（不要填写 service_role 密钥）。
+3. 安装 Node.js，然后在项目目录执行 npm install。
+4. 执行 npx eas-cli login，再执行 npx eas-cli build:configure。
+5. 执行 npx eas-cli build --platform android --profile preview。
+6. 等待 Expo 生成 APK 下载地址，下载后在安卓手机安装。
+7. 测试登录、订单、出货数量、生产报工、权限等功能。
+
+已预设 preview 为 APK 格式，去掉了无效的 EAS projectId 占位符。
+需要联网编译和真机测试；本文件不保证无需修改即可通过编译。
